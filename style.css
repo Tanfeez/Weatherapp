@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Bahnschrift",Bahnschrift;
+  background: #ffffff;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="button"]{
+  padding: 15px 30px;
+  background: #34eb6b;
+  border: none;
+  border-radius: 1px;
+  font-family: "Bahnschrift",Bahnschrift;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e28d8d;
+  border: none;
+  border-radius: 1px;
+  font-family: "Bahnschrift",Bahnschrift;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 50%;
+  background: #bbd156;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+  padding: 50px;
+  
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
+
+.ui-helper-hidden-accessible { display: none; }
+#ui-id-1
+{ position: absolute;
+  width: 39%;
+  top: 100%;
+  border: 1px solid #e28d8d;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+  
+    height: 100px;
+    overflow: auto;
+ 
+
+}
+#ui-id-1 li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#ui-id-1 li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+
+
